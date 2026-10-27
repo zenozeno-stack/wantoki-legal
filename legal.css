@@ -1,0 +1,25 @@
+/* Public legal pages (Datenschutz, Kinderschutz). Signal palette from src/theme.css, readable on phones. */
+:root {
+  --paper: #F3F0E8; --ink: #0D0D0D; --ink2: #1A1A19; --lime: #C8FF2E; --fog: #A3A098; --hairline: #323130;
+  --display: 'Helvetica Neue', 'Arial Narrow', Arial, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ink); color: var(--paper); font: 16px/1.6 -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; border-bottom: 1px solid var(--hairline); padding-bottom: 16px; margin-bottom: 24px; }
+.wordmark { font-family: var(--display); font-weight: 900; font-size: 24px; letter-spacing: -0.02em; color: var(--paper); text-decoration: none; }
+nav a { margin-left: 16px; font-weight: 600; }
+nav a:first-child { margin-left: 0; }
+h1, h2 { font-family: var(--display); font-stretch: condensed; font-weight: 900; letter-spacing: -0.02em; }
+h1 { font-size: 34px; line-height: 1.1; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--paper); }
+.muted { color: var(--fog); font-size: 14px; }
+a { color: var(--lime); }
+ul { padding-left: 20px; }
+li { margin: 4px 0; }
+.card { background: var(--ink2); border: 1px solid var(--hairline); border-radius: 16px; padding: 16px 20px; margin: 16px 0; }
+.card p { margin: 4px 0; }
+mark { background: var(--lime); color: var(--ink); padding: 0 4px; border-radius: 4px; }
+hr { border: 0; border-top: 1px solid var(--hairline); margin: 48px 0 0; }
